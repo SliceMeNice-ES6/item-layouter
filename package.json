@@ -1,0 +1,22 @@
+{
+  "name": "@slicemenice/item-layouter",
+  "version": "1.0.0",
+  "description": "ECMAScript 6 Item Layouter Classes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SliceMeNice-ES6/item-layouter.git"
+  },
+  "keywords": [
+    "ES6",
+    "Item Layout"
+  ],
+  "author": "Stefan Ullinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SliceMeNice-ES6/item-layouter/issues"
+  },
+  "homepage": "https://github.com/SliceMeNice-ES6/item-layouter",
+  "dependencies": {
+    "@slicemenice/event-utils": "^1.0.1"
+  }
+}
