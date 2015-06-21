@@ -1,4 +1,4 @@
-import debounce from 'event-utils/debounce';
+import { debounce } from 'event-utils';
 
 class ItemLayouter {
 	constructor( containerElement, options ) {
