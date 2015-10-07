@@ -43,16 +43,15 @@ class ItemLayouter {
 	}
 
 	_layout() {
-		this._resetLayout();
-
 		let itemsToLayout = Array.from( this.items.values() );
 		itemsToLayout = this._filterItems( itemsToLayout );
 
+		this._resetLayout( itemsToLayout );
 		this._layoutItems( itemsToLayout );
-		this._postLayout();
+		this._postLayout( itemsToLayout );
 	}
 
-	_resetLayout() {
+	_resetLayout( itemsToLayout ) {
 		// noop
 	}
 
@@ -60,7 +59,7 @@ class ItemLayouter {
 		return items;
 	}
 
-	_postLayout() {
+	_postLayout( itemsToLayout ) {
 		// noop
 	}
 }
